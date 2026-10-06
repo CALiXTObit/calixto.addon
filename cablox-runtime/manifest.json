@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "runtime": "cablox",
+  "updated": "2026-10-06",
+  "policy": {
+    "verifySha256": true,
+    "reuseUnchanged": true,
+    "deleteObsolete": true,
+    "preserveUserData": true
+  },
+  "components": [
+    {
+      "id": "box64",
+      "version": "0.4.4",
+      "asset": "box64-0.4.4.tzst",
+      "sha256": "e1a34fed50bb38ef7fbf51ad5e5b9a76ec4c8178f9cfb4b9f6def0497f2f446c",
+      "size": 4540371,
+      "downloadUrl": "https://raw.githubusercontent.com/brunodev85/winlator/main/installable_components/box64/box64-0.4.4.tzst",
+      "source": "https://github.com/ptitSeb/box64"
+    },
+    {
+      "id": "turnip",
+      "version": "26.2.0",
+      "asset": "turnip-26.2.0.tzst",
+      "sha256": "1e5bd643d64b450960ea3208cc96599a4de577f178e9ba0843b1c37083ce50d2",
+      "size": 2659862,
+      "downloadUrl": "https://raw.githubusercontent.com/brunodev85/winlator/main/installable_components/turnip/turnip-26.2.0.tzst",
+      "source": "https://gitlab.freedesktop.org/mesa/mesa"
+    },
+    {
+      "id": "dxvk",
+      "version": "2.4.1",
+      "asset": "dxvk-2.4.1.tzst",
+      "sha256": "897cc48500241006c15c62f200e9a6e1ea8a674bd285da25df6f68fdcdbfe42e",
+      "size": 4322727,
+      "downloadUrl": "https://raw.githubusercontent.com/brunodev85/winlator/main/installable_components/dxvk/dxvk-2.4.1.tzst",
+      "source": "https://github.com/doitsujin/dxvk"
+    },
+    {
+      "id": "dxvk",
+      "version": "2.6.1",
+      "asset": "dxvk-2.6.1.tzst",
+      "sha256": "29a198dbc4a9e58519d4942a3725850ed23ccac36ee92d73415d5c0528a3e4b8",
+      "size": 4659590,
+      "downloadUrl": "https://raw.githubusercontent.com/brunodev85/winlator/main/installable_components/dxvk/dxvk-2.6.1.tzst",
+      "source": "https://github.com/doitsujin/dxvk"
+    }
+  ]
+}
